@@ -1,15 +1,10 @@
 # Import necessary packages
 import streamlit as st
 import requests
-from streamlit_lottie import st_lottie
 from PIL import Image
-import pandas as pd
-import plotly
-import plotly.express as px
 from nltk.tokenize import sent_tokenize
 import os
 from textstat.textstat import textstatistics
-import requests
 from bs4 import BeautifulSoup
 import contractions
 import streamlit.components.v1 as components
