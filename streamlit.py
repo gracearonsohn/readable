@@ -179,6 +179,9 @@ def FK(text):
 
 
 
+with open("paper.pdf", "rb") as pdf_file:
+        PDFbyte = pdf_file.read()
+
 # ---- USE LOCAL CSS ----
 def local_css(file_name):
     with open(file_name) as f:
@@ -191,7 +194,9 @@ with st.container():
     st.subheader("PS407 - Grace Aronsohn")
     st.title("Immortal souls, first-born children, and other things we’re signing away")
     st.write("A Comparative Study of the Terms of Service Agreements of Big Tech Companies and the Challenges for Government Regulators")
-    st.write("[Read the full paper here](https://catalog.middlebury.edu/courses/view/catalog/catalog%2FMCUG/course/course%2FPSCI0407)")
+    st.download_button(label="Download the full paper here!",
+                    data=PDFbyte,
+                    file_name="aronsohn_readability.pdf")
 
 # ---- CONTEXT
 with st.container():
