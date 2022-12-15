@@ -1,0 +1,10 @@
+# Import necessary packages
+streamlit
+requests
+PIL
+nltk.tokenize
+os
+textstat.textstat
+bs4
+contractions
+streamlit.components.v1
