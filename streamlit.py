@@ -1,7 +1,9 @@
 # Import necessary packages
 import streamlit as st
 import requests
+import nltk
 from nltk.tokenize import sent_tokenize
+nltk.download('punkt')
 from textstat.textstat import textstatistics
 from bs4 import BeautifulSoup
 import contractions
@@ -10,18 +12,6 @@ import streamlit.components.v1 as components
 
 
 st.set_page_config(page_title="PS407 - Grace Aronsohn", page_icon=":computer:",layout="wide")
-
-@st.cache
-def load_lottieurl(url):
-    r = requests.get(url)
-    if r.status_code != 200:
-        return None
-    return r.json()
-
-@st.cache
-def get_data(filename):
-    unions_data = pd.read_csv(filename)
-    return unions_data
 
 ### Helper functions
 def getText(link):
