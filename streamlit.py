@@ -2,7 +2,6 @@
 import streamlit as st
 import requests
 from nltk.tokenize import sent_tokenize
-import os
 from textstat.textstat import textstatistics
 from bs4 import BeautifulSoup
 import contractions
