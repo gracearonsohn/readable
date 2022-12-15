@@ -1,7 +1,6 @@
 # Import necessary packages
 streamlit
 requests
-PIL
 nltk
 os
 textstat

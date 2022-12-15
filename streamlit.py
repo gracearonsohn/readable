@@ -1,7 +1,6 @@
 # Import necessary packages
 import streamlit as st
 import requests
-from PIL import Image
 from nltk.tokenize import sent_tokenize
 import os
 from textstat.textstat import textstatistics
