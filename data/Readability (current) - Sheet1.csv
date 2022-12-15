@@ -1,0 +1,15 @@
+company,document,link,effective_date,total_words,total_sentences,total_syllables,average_words_per_sentence,average_syllables_per_word,fre,fk
+Google,Google Terms of Service,https://policies.google.com/terms?hl=en-US,1/5/2022,3419,111,5463,30.80,1.60,40.39,15.28
+Google,Google Privacy Policy,https://policies.google.com/privacy?hl=en-US,10/4/2022,5622,211,9186,26.64,1.63,41.56,14.08
+Meta,Terms of Service,https://www.facebook.com/legal/terms/plain_text_terms,7/26/2022,4972,177,7798,28.09,1.57,45.64,13.87
+Meta,Privacy Policy,https://mbasic.facebook.com/privacy/policy/printable/,7/26/2022,16488,582,26531,28.33,1.61,41.95,14.45
+Amazon,Conditions of Use,https://www.amazon.com/gp/help/customer/display.html?nodeId=GLSBYFE9MGKKQXXM,9/14/2022,3038,114,4954,26.25,1.63,41.83,14.05
+Amazon,Amazon.com Privacy Notice,https://www.amazon.com/gp/help/customer/display.html?nodeId=GX7NJQ4ZB8MHFRNJ,6/29/2022,3504,141,5975,24.85,1.71,37.35,14.22
+Apple,Apple Media Services Terms and Conditions,https://www.apple.com/legal/internet-services/itunes/,9/12/2022,8152,286,13474,28.5,1.65,38.07,15.03
+Apple,iCloud Terms  and Conditions,https://www.apple.com/legal/internet-services/icloud/us-en/terms.html,12/13/2022,10181,363,16571,28.05,1.63,40.67,14.55
+Apple,Privacy Policy,https://www.apple.com/legal/privacy/,10/27/2021,4067,175,6977,23.24,1.72,38.11,13.72
+Apple,Website Terms of Use,https://www.apple.com/legal/internet-services/terms/site.html,11/20/2009,3356,91,5284,36.88,1.57,36.2,17.37
+Apple,"Terms and Conditions for Apple Gift Cards and Codes, Apple Account Associated Balance, and Content Codes",https://www.apple.com/legal/internet-services/itunes/giftcards/,5/26/2022,2495,108,3928,23.1,1.57,50.2,12
+Microsoft,Microsoft Terms of Use,https://www.microsoft.com/en-us/legal/terms-of-use,2/7/2022,3061,104,5289,29.43,1.73,30.78,16.28
+Microsoft,Microsoft Privacy Statement,https://privacy.microsoft.com/en-US/young-people?PrintView=true,12/1/2022,78993,3593,131893,21.99,1.67,43.27,12.69
+Microsoft,Privacy for young people,https://privacy.microsoft.com/en-US/young-people?PrintView=true,9/1/2021,3830,246,5696,15.57,1.49,65.21,8.03
