@@ -208,7 +208,7 @@ with st.container():
     with fre_column:
         st.header("Flesch Reading Ease")
         st.write("FRE scores range from 0 to 100, with higher scores indicating greater readability, and are calculated as follows:")
-        st.markdown("**206.835 - (1.015 * average words per sentence) - (84.6 * average  words per sentence)**")
+        st.markdown("**206.835 - (1.015 * average words per sentence) - (84.6 * average  syllables per word)**")
         #st.latex("206.835 - (1.015 * \\text{average words per sentence}) - (84.6 * \\text{average words per sentence})")
         st.write("Texts that score below 60 are considered to be unreadable to the average consumer, with a score of 60 or above being required by United States government agencies to ensure documents are readable to the public.")
     with fk_column:
