@@ -11,7 +11,7 @@ import streamlit.components.v1 as components
 
 
 
-st.set_page_config(page_title="PS407 - Grace Aronsohn", page_icon=":computer:",layout="wide")
+st.set_page_config(page_title="How readable is Big Tech? - Grace Aronsohn", page_icon=":computer:",layout="wide")
 
 ### Helper functions
 def getText(link):
@@ -179,7 +179,7 @@ def FK(text):
 
 
 
-with open("paper.pdf", "rb") as pdf_file:
+with open("paper301.pdf", "rb") as pdf_file:
         PDFbyte = pdf_file.read()
 
 # ---- USE LOCAL CSS ----
@@ -191,7 +191,7 @@ local_css("style/style.css")
 
 # ---- HEADER SECTION ----
 with st.container():
-    st.subheader("PS407 - Grace Aronsohn")
+    #st.subheader("PS407 - Grace Aronsohn")
     st.title("Immortal souls, first-born children, and other things we’re signing away")
     st.write("A Comparative Study of the Terms of Service Agreements of Big Tech Companies and the Challenges for Government Regulators")
     st.download_button(label="Download the full paper here!",
@@ -257,6 +257,88 @@ with st.container():
     components.iframe("https://datawrapper.dwcdn.net/9focA/2/",height=500,scrolling=True)
 
 
+
+# ---- SOCI 301 ----
+with st.container():
+    st.write("---")
+    st.header("The demographics of readability")
+    st.write("See how responses to Wave 49 of Pew Research Center's American Trends Panel vary by demographic group.")
+    
+    st.subheader("How often are you asked to agree to the terms and conditions of a company's privacy policy?")
+    st.write("##")
+    sex_column,race_column,age_column = st.columns(3)
+    with sex_column:
+        components.iframe("https://datawrapper.dwcdn.net/9pAnR/4/",height=500,scrolling=True)
+    with race_column:
+        components.iframe("https://datawrapper.dwcdn.net/mjN0q/3/",height=500,scrolling=True)
+    with age_column:
+        components.iframe("https://datawrapper.dwcdn.net/11p0m/2/",height=500,scrolling=True)
+    st.write("##")
+    education_column,income_column = st.columns(2)
+    with education_column:
+        components.iframe("https://datawrapper.dwcdn.net/XuPP9/3/",height=500,scrolling=True)
+    with income_column:
+        components.iframe("https://datawrapper.dwcdn.net/ceP20/1/",height=500,scrolling=True)
+    
+    st.write("##")
+    st.write("##")
+
+    st.subheader("When you are asked to agree to a company's privacy policy, how often do you read it before agreeing to it?")
+    st.write("##")
+    sex_column,race_column,age_column = st.columns(3)
+    with sex_column:
+        components.iframe("https://datawrapper.dwcdn.net/Sg8aq/4/",height=500,scrolling=True)
+    with race_column:
+        components.iframe("https://datawrapper.dwcdn.net/mOeU3/2/",height=500,scrolling=True)
+    with age_column:
+        components.iframe("https://datawrapper.dwcdn.net/7KzeJ/3/",height=500,scrolling=True)
+    st.write("##")
+    education_column,income_column = st.columns(2)
+    with education_column:
+        components.iframe("https://datawrapper.dwcdn.net/MYdyQ/2/",height=500,scrolling=True)
+    with income_column:
+        components.iframe("https://datawrapper.dwcdn.net/Qu8uq/2/",height=500,scrolling=True)
+
+    st.write("##")
+    st.write("##")
+
+    st.subheader("When you read a privacy policy, what do you typically do?")
+    st.write("##")
+    sex_column,race_column,age_column = st.columns(3)
+    with sex_column:
+        components.iframe("https://datawrapper.dwcdn.net/Wg5NU/2/",height=500,scrolling=True)
+    with race_column:
+        components.iframe("https://datawrapper.dwcdn.net/j139V/2/",height=500,scrolling=True)
+    with age_column:
+        components.iframe("https://datawrapper.dwcdn.net/4RuMJ/2/",height=500,scrolling=True)
+    st.write("##")
+    education_column,income_column = st.columns(2)
+    with education_column:
+        components.iframe("https://datawrapper.dwcdn.net/wrEof/4/",height=500,scrolling=True)
+    with income_column:
+        components.iframe("https://datawrapper.dwcdn.net/tQHgM/2/",height=500,scrolling=True)
+
+    st.write("##")
+    st.write("##")
+
+    st.subheader("How much do you typically understand the privacy policies you read?")
+    st.write("##")
+    sex_column,race_column,age_column = st.columns(3)
+    with sex_column:
+        components.iframe("https://datawrapper.dwcdn.net/94w8I/2/",height=500,scrolling=True)
+    with race_column:
+        components.iframe("https://datawrapper.dwcdn.net/b0FlP/2/",height=500,scrolling=True)
+    with age_column:
+        components.iframe("https://datawrapper.dwcdn.net/q8J0I/2/",height=500,scrolling=True)
+    st.write("##")
+    education_column,income_column = st.columns(2)
+    with education_column:
+        components.iframe("https://datawrapper.dwcdn.net/eqfSJ/3/",height=500,scrolling=True)
+    with income_column:
+        components.iframe("https://datawrapper.dwcdn.net/sVMWl/2/",height=500,scrolling=True)
+
+
+
 # ---- CONTACT FORM ----
 with st.container():
     st.write("---")
@@ -276,7 +358,7 @@ with st.container():
     left_column,right_column = st.columns(2)
     with left_column:
         st.write("Research by Grace Aronsohn")
-        st.write("PSCI 407: Who Elected Big Tech? (Fall 2022)")
-        st.write("Professor Allison Stanger | Middlebury College")
+        st.write("PSCI 407: Who Elected Big Tech? (Fall 2022) and SOCI 301: Sociology Research Methods (Spring 2023)")
+        st.write("Professor Allison Stanger | Professor Matt Lawrence | Middlebury College")
     with right_column:
         st.markdown(contact_form, unsafe_allow_html=True)
