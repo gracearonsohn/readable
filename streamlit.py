@@ -179,7 +179,7 @@ def FK(text):
 
 
 
-with open("paper301.pdf", "rb") as pdf_file:
+with open("READABILITY.pdf", "rb") as pdf_file:
         PDFbyte = pdf_file.read()
 
 # ---- USE LOCAL CSS ----
